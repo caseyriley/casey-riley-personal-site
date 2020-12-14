@@ -241,7 +241,6 @@ body {
   width: 45vw;
   font-size: 17px;
   color: white;
-  /* font-family: 'M PLUS 1p', sans-serif; */
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
 }
@@ -316,11 +315,9 @@ body {
 .skywalker-top__text P {
   width: 80%;
   font-size: 17px;
-  /* font-weight: 800; */
   color: rgb(255, 255, 255);
-  /* font-family: 'M PLUS 1p', sans-serif; */
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  margin: 20 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 /* -------Paralax-Wrapper-2------------------------ */
 .parallax-wrapper2 {
@@ -346,7 +343,7 @@ body {
   z-index: -1;
   transform: translateZ(-1px) scale(2);
 
-  /* filter: brightness(30%); */
+  filter: brightness(30%);
 }
 .chatter__text {
   display: flex;
@@ -356,7 +353,7 @@ body {
 }
 #chatter__h1 {
   font-size: 40px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
   font-family: 'M PLUS 1p', sans-serif;
@@ -368,10 +365,10 @@ body {
   font-size: 50px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
-.chatter__text P {
+.chatter__text p {
   width: 35vw;
   font-size: 17px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: 'M PLUS 1p', sans-serif;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 20px 0px 0px 30px;
@@ -410,7 +407,7 @@ body {
   overflow: hidden;
 
 } */
-.networking__text {
+.shimmer__text {
   position: absolute;
   left: 0px;
   display: flex;
@@ -423,7 +420,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5); 
 }
 
-#networking__text__h2 {
+#shimmer__text__h2 {
   font-size: 30px;
   color: rgb(229, 178, 236);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -435,13 +432,13 @@ body {
 
   
 }
-#networking__text__h2:hover {
+#shimmer__text__h2:hover {
   color: rgb(243, 134, 247);
   font-size: 35px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
 
 }
-.networking__text P {
+.shimmer__text P {
   width: 80%;
   font-size: 17px;
   color: white;
