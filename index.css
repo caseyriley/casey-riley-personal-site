@@ -1,0 +1,414 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+/* -------Navbar----------------- */
+#navbar-c{
+  width: 100vw;
+  height: 80px;
+  background-color: whitesmoke;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 3;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  box-shadow: 0 3px 8px 1px rgba(0,0,0,.3);
+
+}
+.navbar-c__link-c{
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tranform-box {
+    visibility: hidden;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    left: 11vw;
+    
+}
+.tranform-box__line {
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    transition: transform .4s;
+    transition: top .4s;
+    
+}
+.tranform-box__line-1 {
+    top: 14px;
+}
+
+.tranform-box__line-3 {
+    top: 34px;
+}
+.transform-1 {
+    transform: rotate(-45deg);
+    top: 25px;
+}
+.transform-2 {
+    visibility: hidden;
+}
+.transform-3 {
+    transform: rotate(45deg);
+    top: 25px;
+}
+#navbar-c__dropdown {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 80px;
+    left: 10vw;
+    height: 200px;
+    width: 240px;
+    background-color: white;
+    box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
+    z-index: 2;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 160, 160);
+    opacity: 70%;
+}
+.hidden{
+  visibility: hidden;
+}
+#navbar-c__dropdown__white-space{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.navbar-c__dropdown__nav-link {
+    margin: 0px 0px 8px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+   
+}
+
+.navbar-c__link-c__shimmer{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.navbar-c__link-c__sherwood{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+.navbar-c__link-c__linkedin{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+.navbar-c__link-c__angellist{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+.navbar-c__link-c__resume{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+
+.navbar-c__link-c__contact{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+#navbar-c a:hover{
+  color: rgb(216, 4, 216);
+}
+/* ---------------------------- */
+
+/* ----------main-------------------- */
+#home-main {
+  height: calc(100vh -50px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px 0px 0px 0px;
+}
+
+.parallax-c {
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+.parallax-wrapper {
+  width: 100vw;
+  height:100vh;
+  padding-top:20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallax-wrapper::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  background-image: url("./images/fernGreenForestLush.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  transform:translateZ(-1px) scale(2);
+}
+
+/* ---------wrapper1------------- */
+.parallax-wrapper1 {
+  width: 100vw;
+  height:100vh;
+  /* padding-top:20vh; */
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.parallax-wrapper1::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  background-image: url("./images/fernGreenForestLush.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  transform:translateZ(-1px) scale(2);
+  filter: brightness(30%);
+}
+
+#casey-top__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+#casey-top__h1 {
+  font-size: 40px;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+#casey-top__text P {
+  width: 45vw;
+  font-size: 17px;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin: 10px 0px 0px 0px;
+}
+#caseyPro1 {
+  width: 300px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  border-radius: 100%;
+}
+
+/* -----Regular-Wrapper-1---------------- */
+/* .regular-wrapper {
+  width: 100vw;
+  height:100vh;
+  padding-top:20vh;
+  background-image: src("https://wellsbaum.blog/eventually-everything-connects-people-ideas-objects/");
+  background-size: cover;
+  z-index: 2;
+  position: relative;
+} */
+.regular-wrapper1 {
+  width: 100vw;
+  height:100vh;
+  /* padding-top:20vh; */
+  background-image: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+  /* background-image: url("./images/nebula.jpg"); */
+  background-size: cover;
+  /* background-color: lightgrey; */
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.regular-wrapper1__inner-c {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255, .7);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.regular-wrapper1 img {
+  height: 70vh;
+  margin: 0px 0px 0px 30px;
+}
+
+.skywalker-top__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#skywalker__h2 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin: 0;
+  font-family: 'M PLUS 1p', sans-serif;
+  cursor: pointer;
+  transition: all .3s;
+}
+#skywalker__h2:hover {
+  color: rgb(243, 134, 247);
+  font-size: 50px;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+.skywalker-top__text P {
+  width: 80%;
+  font-size: 17px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  color: rgb(47, 47, 201);
+  font-family: 'M PLUS 1p', sans-serif;
+  margin: 20 0px 0px 0px;
+}
+/* --------------------------------- */
+
+
+/* ------------------------------ */
+
+
+.parallax-wrapper2 {
+  width: 100vw;
+  height:100vh;
+  /* padding-top:20vh; */
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.parallax-wrapper2::before {
+  content:"";
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  background-image: url("./images/Uganda-2014-7.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  transform:translateZ(-1px) scale(2);
+  filter: brightness(30%);
+}
+
+
+/* .content {
+  margin: 0 auto;
+  padding: 50px;
+  width: 50%;
+  background: #aaa;
+} */
+.regular-wrapper2 {
+  width: 100vw;
+  height:100vh;
+  /* padding-top:20vh; */
+  background-image: url("./images/Katrina-Zavalney-Networking.jpg");
+  background-size: cover;
+  background-position: bottom 50px center;
+  /* background-color: lightgrey; */
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+  
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* --------------IntersectionObserver------------------- */
+.from-left {
+  transform: translateX(-90%);
+}
+.from-right {
+  transform: translateX(100%);
+}
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, transform 1400ms ease-in;
+  transition-delay: 1s;
+  opacity: 0;
+}
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+
+
+.fade-in {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+.fade-in.appear {
+  opacity: 1;
+}
+
+/* --------------------------------- */
