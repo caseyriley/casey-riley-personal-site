@@ -241,7 +241,7 @@ body {
   width: 45vw;
   font-size: 17px;
   color: white;
-  font-family: 'M PLUS 1p', sans-serif;
+  /* font-family: 'M PLUS 1p', sans-serif; */
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
 }
@@ -266,7 +266,7 @@ body {
   width: 100vw;
   height:100vh;
   /* padding-top:20vh; */
-  background-image: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+  background-image: url("./images/saturn-light.jpg");
   /* background-image: url("./images/nebula.jpg"); */
   background-size: cover;
   /* background-color: lightgrey; */
@@ -280,7 +280,7 @@ body {
 .regular-wrapper1__inner-c {
   height: 100%;
   width: 100%;
-  background-color: rgb(255, 255, 255, .7);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -295,10 +295,12 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  
+  
 }
 #skywalker__h2 {
   font-size: 40px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
   font-family: 'M PLUS 1p', sans-serif;
@@ -314,18 +316,13 @@ body {
 .skywalker-top__text P {
   width: 80%;
   font-size: 17px;
-  font-weight: 800;
-  color: rgb(0, 0, 0);
-  color: rgb(47, 47, 201);
-  font-family: 'M PLUS 1p', sans-serif;
+  /* font-weight: 800; */
+  color: rgb(255, 255, 255);
+  /* font-family: 'M PLUS 1p', sans-serif; */
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 20 0px 0px 0px;
 }
-/* --------------------------------- */
-
-
-/* ------------------------------ */
-
-
+/* -------Paralax-Wrapper-2------------------------ */
 .parallax-wrapper2 {
   width: 100vw;
   height:100vh;
@@ -342,37 +339,122 @@ body {
   height: 100vh;
   top:0;
   left:0;
-  background-image: url("./images/Uganda-2014-7.jpg");
+  /* background-image: url("https://wellsbaum.blog/eventually-everything-connects-people-ideas-objects/"); */
+  background-image: url("./images/dog-business-office-computer.jpg");
   background-size: cover;
   position: absolute;
   z-index: -1;
-  transform:translateZ(-1px) scale(2);
-  filter: brightness(30%);
+  transform: translateZ(-1px) scale(2);
+
+  /* filter: brightness(30%); */
 }
+.chatter__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#chatter__h1 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin: 0;
+  font-family: 'M PLUS 1p', sans-serif;
+  cursor: pointer;
+  transition: all .3s;
+}
+#chatter__h1:hover {
+  color: rgb(243, 134, 247);
+  font-size: 50px;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+.chatter__text P {
+  width: 35vw;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin: 20px 0px 0px 30px;
 
-
-/* .content {
-  margin: 0 auto;
-  padding: 50px;
-  width: 50%;
-  background: #aaa;
-} */
+}
+.parallax-wrapper2 img {
+  height: 70vh;
+  margin: 0px 30px 0px 0px;
+  border-radius: 10px;
+}
+/* ------------Regular-Wrapper-2----------------- */
 .regular-wrapper2 {
   width: 100vw;
   height:100vh;
   /* padding-top:20vh; */
-  background-image: url("./images/Katrina-Zavalney-Networking.jpg");
+  background-image: url("./images/Shimmer-gallery.png");;
   background-size: cover;
-  background-position: bottom 50px center;
+  background-position: top;
   /* background-color: lightgrey; */
   z-index: 2;
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
- 
+}
+.regular-wrapper2 img {
+  width: 100vw;
   
 }
+/* #shimmer-image {
+  background-image: url("./images/Shimmer-gallery.png");
+  width: 100%;
+  height: 100px;
+
+  background-position: top;
+  overflow: hidden;
+
+} */
+.networking__text {
+  position: absolute;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+  height: 100%;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#networking__text__h2 {
+  font-size: 30px;
+  color: rgb(229, 178, 236);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin: 20% 0px 0px 0px;
+  font-family: 'M PLUS 1p', sans-serif;
+  cursor: pointer;
+  transition: all .3s;
+  position: relative;
+
+  
+}
+#networking__text__h2:hover {
+  color: rgb(243, 134, 247);
+  font-size: 35px;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+.networking__text P {
+  width: 80%;
+  font-size: 17px;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin: 5px 0px 0px 0px;
+}
+/* ---------------------------------------------- */
+
+
+/* ------------------------------ */
+
+
 
 
 
