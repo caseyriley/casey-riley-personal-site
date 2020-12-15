@@ -1,0 +1,51 @@
+@media screen and (max-width: 650px ){
+
+  .parallax-wrapper1 {
+    width: 650px;
+  }
+
+  #casey-top__text {
+    position: relative;
+    top: 15px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #casey-top__text P {
+    width: 300px;
+    font-size: 13px;
+    margin: 5px 0px 0px 0px;
+  }
+
+  .skywalker-top__text {
+    /* position: relative;
+    top: 15px; */
+    margin: 0px 0px 0px 0px;
+  }
+
+  .skywalker-top__text P {
+    width: 300px;
+    font-size: 13px;
+    margin: 5px 0px 0px 0px;
+  }
+
+  .chatter__text p {
+    width: 250px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 20px 0px 0px 30px;
+  
+  }
+  .shimmer__text P {
+    position: relative;
+    left: 15px;
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 10px 10px 0px 10px;
+    /* margin: 5px 0px 0px 0px; */
+  }
+}

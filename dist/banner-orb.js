@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const ring = document.getElementById("ring");
   const colorWash = document.getElementById("color-wash");
   const colorWash2 = document.getElementById("color-wash2");
+  const bubble = document.getElementById("bubble");
  
 
   let colorState = false;
@@ -23,5 +24,5 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   bannerC.onmouseenter = function() {toggleColorState()};
-  
+  bubble.onclick = function() {toggleColorState()};
 })
