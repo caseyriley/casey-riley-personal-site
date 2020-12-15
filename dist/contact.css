@@ -8,10 +8,7 @@
   
 } */
 
-html, body {
 
-  /* z-index: -2; */
-}
 
 #banner-c {
   height: 500px;
@@ -128,4 +125,41 @@ html, body {
     /* width: 100%; */
     transform: scale(2) ;
     /* transform: scale(2) translateX(-20%); */
+}
+#contact-text {
+  
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#contact-h1 {
+  /* position: fixed; */
+  top: 120px;
+  left: 160px;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+  z-index: 3;
+}
+#contact-h2 {
+  /* position: fixed; */
+  top: 180px;
+  left: 150px;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  z-index: 3;
+}
+#contact-h2-email {
+  /* position: fixed; */
+  top: 260px;
+  left: 150px;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  z-index: 3;
 }

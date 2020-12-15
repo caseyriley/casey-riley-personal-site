@@ -37,6 +37,9 @@ body {
 .navbar-options  span{
   font-size: 20px;
 }
+.navbar-options  span:hover{
+  color: rgb(243, 134, 247);
+}
 .navbar-c__link-c{
   width: 100vw;
   height: 80px;
@@ -146,7 +149,7 @@ body {
 }
 
 .navbar-c__dropdown__nav-link:hover {
-  color: rgb(148, 148, 148);
+  color: rgb(243, 134, 247);
 }
 
 .navbar-c__link-c__shimmer{
@@ -193,7 +196,7 @@ body {
   margin-left: 20px;
 }
 #navbar-c a:hover{
-  color: rgb(216, 4, 216);
+  color: rgb(243, 134, 247);
 }
 /* ---------------------------- */
 
