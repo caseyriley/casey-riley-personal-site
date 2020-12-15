@@ -37,6 +37,9 @@ body {
 .navbar-options  span{
   font-size: 20px;
 }
+.navbar-options  span:hover{
+  color: rgb(243, 134, 247);
+}
 .navbar-c__link-c{
   width: 100vw;
   height: 80px;
@@ -146,7 +149,7 @@ body {
 }
 
 .navbar-c__dropdown__nav-link:hover {
-  color: rgb(148, 148, 148);
+  color: rgb(243, 134, 247);
 }
 
 .navbar-c__link-c__shimmer{
@@ -193,7 +196,7 @@ body {
   margin-left: 20px;
 }
 #navbar-c a:hover{
-  color: rgb(216, 4, 216);
+  color: rgb(243, 134, 247);
 }
 /* ---------------------------- */
 
@@ -272,7 +275,7 @@ body {
 }
 
 #casey-top__h1 {
-  font-size: 40px;
+  font-size: 3vw;
   color: white;
   margin: 0px 0px 0px 0px;
   font-family: 'M PLUS 1p', sans-serif;
@@ -280,13 +283,14 @@ body {
 
 #casey-top__text P {
   width: 45vw;
-  font-size: 17px;
+  font-size: 1.5vw;
   color: white;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
 }
 #caseyPro1 {
-  width: 300px;
+  width: 300px; 
+  width: 30vw; 
   height: auto;
   margin: 0px 0px 0px 0px;
   border-radius: 100%;
@@ -305,11 +309,8 @@ body {
 .regular-wrapper1 {
   width: 100vw;
   height: calc(100vh - 50px);
-  /* padding-top:20vh; */
   background-image: url("./images/saturn-light.jpg");
-  /* background-image: url("./images/nebula.jpg"); */
   background-size: cover;
-  /* background-color: lightgrey; */
   z-index: 2;
   position: relative;
   display: flex;
@@ -326,7 +327,7 @@ body {
   align-items: center;
 }
 .regular-wrapper1 img {
-  height: 70vh;
+  height: 30vw;
   margin: 0px 0px 0px 30px;
 }
 
@@ -335,11 +336,10 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  
-  
 }
 #skywalker__h2 {
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 3vw;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
@@ -355,10 +355,13 @@ body {
 }
 .skywalker-top__text P {
   width: 80%;
+  width: 45vw;
   font-size: 17px;
+  font-size: 1.5vw;
   color: rgb(255, 255, 255);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
+
 }
 /* -------Paralax-Wrapper-2------------------------ */
 .parallax-wrapper2 {
@@ -394,6 +397,7 @@ body {
 }
 #chatter__h1 {
   font-size: 40px;
+  font-size: 3vw;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
@@ -416,8 +420,8 @@ body {
 
 }
 .parallax-wrapper2 img {
-  height: 70vh;
-  margin: 0px 30px 0px 0px;
+  height: 30vw;
+  margin: 0px 0px 0px 10px;
   border-radius: 10px;
 }
 /* ------------Regular-Wrapper-2----------------- */
@@ -457,7 +461,7 @@ body {
   align-items: center;
   margin: 0px 0px 0px 0px;
   height: 100%;
-  width: 30%;
+  width: 30vw;
   background-color: rgba(0, 0, 0, 0.5); 
 }
 
@@ -465,7 +469,7 @@ body {
   font-size: 30px;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  margin: 0% 0px 0px 0px;
+  margin: 0% 10px 0px 10px;
   font-family: 'M PLUS 1p', sans-serif;
   cursor: pointer;
   transition: all .3s;
@@ -486,7 +490,7 @@ body {
   color: white;
   font-family: 'M PLUS 1p', sans-serif;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  margin: 20px 0px 0px 30px;
+  margin: 20px 10px 0px 10px;
   /* margin: 5px 0px 0px 0px; */
 }
 .bold {
@@ -510,7 +514,7 @@ body {
 /* ---------------------------------------- */
 /* --------------IntersectionObserver------------------- */
 .from-left {
-  transform: translateX(-90%);
+  transform: translateX(-80%);
 }
 .from-right {
   transform: translateX(100%);
