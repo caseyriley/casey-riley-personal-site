@@ -25,6 +25,18 @@ body {
   box-shadow: 0 3px 8px 1px rgba(0,0,0,.3);
 
 }
+/* #navbar-c__projects {
+  margin: 0px 0px 0px 10vw;
+} */
+.navbar-options {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-options  span{
+  font-size: 20px;
+}
 .navbar-c__link-c{
   width: 100vw;
   height: 80px;
@@ -71,7 +83,7 @@ body {
     transform: rotate(45deg);
     top: 25px;
 }
-#navbar-c__dropdown {
+.dropdown-projects {
     position: absolute;
     display: flex;
     flex-flow: column;
@@ -79,17 +91,42 @@ body {
     align-items: flex-start;
     top: 80px;
     left: 10vw;
-    height: 200px;
-    width: 240px;
+    height: 120px;
+    width: 100px;
     background-color: white;
     box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
     z-index: 2;
     border-radius: 3px;
     border: 1px solid rgb(160, 160, 160);
-    opacity: 70%;
+    opacity: 1;
+    transition: opacity .5s, height .5s;
+    margin-top: 0px;
+}
+.dropdown-networks {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 80px;
+    left: 30vw;
+    height: 100px;
+    width: 90px;
+    background-color: white;
+    box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
+    z-index: 2;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 160, 160);
+    opacity: 1;
+    transition: opacity .5s, height .5s;
+    margin-top: 0px;
 }
 .hidden{
-  visibility: hidden;
+  height: 0px;
+  /* transform: scale(0); */
+  opacity: 0;
+  pointer-events: none;
+ 
 }
 #navbar-c__dropdown__white-space{
     width: 100%;
@@ -101,11 +138,15 @@ body {
 .navbar-c__dropdown__nav-link {
     margin: 0px 0px 8px 15px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     line-height: 20px;
     font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
    
+}
+
+.navbar-c__dropdown__nav-link:hover {
+  color: rgb(148, 148, 148);
 }
 
 .navbar-c__link-c__shimmer{
@@ -158,7 +199,7 @@ body {
 
 /* ----------main-------------------- */
 #home-main {
-  height: calc(100vh -50px);
+  height: calc(100vh - 50px);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -168,7 +209,7 @@ body {
 }
 
 .parallax-c {
-  height: 100vh;
+  height: calc(100vh - 50px);
   perspective: 1px;
   transform-style: preserve-3d;
   overflow-x:hidden;
@@ -176,7 +217,7 @@ body {
 }
 .parallax-wrapper {
   width: 100vw;
-  height:100vh;
+  height: calc(100vh - 50px);
   padding-top:20vh;
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -187,7 +228,7 @@ body {
 .parallax-wrapper::before {
   content:"";
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 50px);
   top:0;
   left:0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -200,7 +241,7 @@ body {
 /* ---------wrapper1------------- */
 .parallax-wrapper1 {
   width: 100vw;
-  height:100vh;
+  height: calc(100vh - 50px);
   /* padding-top:20vh; */
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -211,7 +252,7 @@ body {
 .parallax-wrapper1::before {
   content:"";
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 50px);
   top:0;
   left:0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -241,7 +282,6 @@ body {
   width: 45vw;
   font-size: 17px;
   color: white;
-  /* font-family: 'M PLUS 1p', sans-serif; */
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
 }
@@ -264,7 +304,7 @@ body {
 } */
 .regular-wrapper1 {
   width: 100vw;
-  height:100vh;
+  height: calc(100vh - 50px);
   /* padding-top:20vh; */
   background-image: url("./images/saturn-light.jpg");
   /* background-image: url("./images/nebula.jpg"); */
@@ -316,16 +356,14 @@ body {
 .skywalker-top__text P {
   width: 80%;
   font-size: 17px;
-  /* font-weight: 800; */
   color: rgb(255, 255, 255);
-  /* font-family: 'M PLUS 1p', sans-serif; */
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  margin: 20 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 /* -------Paralax-Wrapper-2------------------------ */
 .parallax-wrapper2 {
   width: 100vw;
-  height:100vh;
+  height:calc(100vh - 50px);
   /* padding-top:20vh; */
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -336,7 +374,7 @@ body {
 .parallax-wrapper2::before {
   content:"";
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 50px);
   top:0;
   left:0;
   /* background-image: url("https://wellsbaum.blog/eventually-everything-connects-people-ideas-objects/"); */
@@ -346,7 +384,7 @@ body {
   z-index: -1;
   transform: translateZ(-1px) scale(2);
 
-  /* filter: brightness(30%); */
+  filter: brightness(30%);
 }
 .chatter__text {
   display: flex;
@@ -356,7 +394,7 @@ body {
 }
 #chatter__h1 {
   font-size: 40px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
   font-family: 'M PLUS 1p', sans-serif;
@@ -368,10 +406,10 @@ body {
   font-size: 50px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
-.chatter__text P {
+.chatter__text p {
   width: 35vw;
   font-size: 17px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: 'M PLUS 1p', sans-serif;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 20px 0px 0px 30px;
@@ -385,7 +423,7 @@ body {
 /* ------------Regular-Wrapper-2----------------- */
 .regular-wrapper2 {
   width: 100vw;
-  height:100vh;
+  height: calc(100vh - 50px);
   /* padding-top:20vh; */
   background-image: url("./images/Shimmer-gallery.png");;
   background-size: cover;
@@ -410,12 +448,12 @@ body {
   overflow: hidden;
 
 } */
-.networking__text {
+.shimmer__text {
   position: absolute;
   left: 0px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   margin: 0px 0px 0px 0px;
   height: 100%;
@@ -423,31 +461,37 @@ body {
   background-color: rgba(0, 0, 0, 0.5); 
 }
 
-#networking__text__h2 {
+#shimmer__text__h2 {
   font-size: 30px;
-  color: rgb(229, 178, 236);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  margin: 20% 0px 0px 0px;
+  margin: 0% 0px 0px 0px;
   font-family: 'M PLUS 1p', sans-serif;
   cursor: pointer;
   transition: all .3s;
   position: relative;
+ 
 
   
 }
-#networking__text__h2:hover {
+#shimmer__text__h2:hover {
   color: rgb(243, 134, 247);
   font-size: 35px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
 
 }
-.networking__text P {
+.shimmer__text P {
   width: 80%;
   font-size: 17px;
   color: white;
   font-family: 'M PLUS 1p', sans-serif;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  margin: 5px 0px 0px 0px;
+  margin: 20px 0px 0px 30px;
+  /* margin: 5px 0px 0px 0px; */
+}
+.bold {
+  font-weight: 600;
+  color: rgb(120, 187, 245) !important;
 }
 /* ---------------------------------------------- */
 
