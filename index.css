@@ -295,6 +295,7 @@ body {
   height: auto;
   margin: 0px 0px 0px 0px;
   border-radius: 100%;
+  /* filter: brightness(90%); */
 }
 
 /* -----Regular-Wrapper-1---------------- */
