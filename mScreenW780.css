@@ -2,6 +2,13 @@
 
   #casey-top__text P {
     font-size: 13px;
+    margin: 5px 0px 0px 0px;
+  }
+
+  #casey-top__text {
+    position: relative;
+    top: 15px;
+    
   }
 
   .skywalker-top__text P {
