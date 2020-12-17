@@ -1,0 +1,57 @@
+@media screen and (max-width: 1080px) {
+  #casey-top__h1 {
+    font-size: 3vw;
+  }
+  #casey-top__text P {
+    width: 45vw;
+    font-size: 1.5vw;
+    margin: 10px 0px 0px 0px;
+  }
+  #caseyPro1 {
+    width: 30vw; 
+  }
+
+  .regular-wrapper1 img {
+    height: 30vw;
+    margin: 0px 0px 0px 30px;
+  }
+  #skywalker__h2 {
+    font-size: 3vw;
+  }
+  .skywalker-top__text P {
+    width: 45vw;
+    font-size: 1.5vw;
+    margin: 10px 0px 0px 0px;
+  }
+  #chatter__h1 {
+    font-size: 3vw;
+  }
+  .chatter__text p {
+    width: 35vw;
+    font-size: 17px;
+    margin: 10px 0px 0px 30px;
+  }
+  .parallax-wrapper2 img {
+    height: 30vw;
+  }
+
+  .shimmer__text {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 35vw;
+  }
+  #shimmer__text__h2 {
+    font-size: 30px;
+    margin: 0% 10px 0px 10px;
+  }
+  #shimmer__text__h2 {
+    font-size: 30px;
+    margin: 0% 10px 0px 10px;
+  }
+  .shimmer__text P {
+    width: 80%;
+    font-size: 17px;
+    margin: 10px 10px 0px 10px;
+  }
+}
