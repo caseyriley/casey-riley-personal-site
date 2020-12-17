@@ -285,7 +285,7 @@ body {
 }
 
 #casey-top__h1 {
-  font-size: 3vw;
+  font-size: 35px;
   color: white;
   margin: 0px 0px 0px 0px;
   font-family: 'M PLUS 1p', sans-serif;
@@ -293,7 +293,9 @@ body {
 
 #casey-top__text P {
   width: 45vw;
+  width: 500px;
   font-size: 1.5vw;
+  font-size: 16px;
   color: white;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
@@ -303,8 +305,8 @@ body {
   color: white;
 }
 #caseyPro1 {
-  width: 300px; 
   width: 30vw; 
+  width: 350px;
   height: auto;
   margin: 0px 0px 0px 0px;
   border-radius: 100%;
@@ -343,6 +345,7 @@ body {
 }
 .regular-wrapper1 img {
   height: 30vw;
+  height: 330px;
   margin: 0px 0px 0px 30px;
 }
 
@@ -355,6 +358,7 @@ body {
 #skywalker__h2 {
   /* font-size: 40px; */
   font-size: 3vw;
+  font-size: 35px;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
@@ -369,10 +373,11 @@ body {
 
 }
 .skywalker-top__text P {
-  width: 80%;
   width: 45vw;
-  font-size: 17px;
+  width: 490px;
+ 
   font-size: 1.5vw;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 10px 0px 0px 0px;
@@ -411,8 +416,8 @@ body {
   align-items: center;
 }
 #chatter__h1 {
-  font-size: 40px;
   font-size: 3vw;
+  font-size: 35px;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
@@ -427,6 +432,7 @@ body {
 }
 .chatter__text p {
   width: 35vw;
+  width: 390px;
   font-size: 17px;
   color: rgb(255, 255, 255);
   font-family: 'M PLUS 1p', sans-serif;
@@ -436,6 +442,7 @@ body {
 }
 .parallax-wrapper2 img {
   height: 30vw;
+  height: 330px;
   margin: 0px 0px 0px 0px;
   border-radius: 10px;
 }
@@ -479,6 +486,7 @@ body {
   margin: 0px 0px 0px 0px;
   height: 100%;
   width: 35vw;
+  width: 385px;
   background-color: rgba(0, 0, 0, 0.5); 
 }
 
@@ -503,6 +511,7 @@ body {
 }
 .shimmer__text P {
   width: 80%;
+  width: 250px;
   font-size: 17px;
   color: white;
   font-family: 'M PLUS 1p', sans-serif;
