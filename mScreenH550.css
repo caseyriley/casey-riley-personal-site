@@ -5,22 +5,26 @@
   .parallax-wrapper1::before {
     height: 630px;
   }
+
   .regular-wrapper1 {
     height: 470px;
   }.parallax-wrapper2 {
     height: 470px;
   }
+
   .parallax-wrapper2::before {
+    top: 80px;
     height: 630px;
   }
   .regular-wrapper2 {
     height: calc(100vh - 80px);
     height: 470px;
   }
-  #shimmer-image {
+
+  /* #shimmer-image { */
     /* height: calc(100vh - 80px);
     height: 470px; */
     /* position: relative;
     left: 0px; */
-  }
+  /* } */
 }

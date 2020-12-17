@@ -26,11 +26,9 @@ body {
   border-bottom: 1px solid rgb(233, 233, 233);
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   box-shadow: 0 3px 8px 1px rgba(0,0,0,.3);
-  /* opacity: .3; */
+
 }
-/* #navbar-c__projects {
-  margin: 0px 0px 0px 10vw;
-} */
+
 .navbar-options {
   height: 100%;
   display: flex;
