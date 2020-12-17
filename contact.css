@@ -163,3 +163,19 @@
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   z-index: 3;
 }
+.contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#iphone {
+  height: 30px;
+  filter: invert();
+  z-index: 5;
+}
+#mail {
+  height: 30px;
+  filter: brightness(500%);
+  z-index: 5;
+  margin: 0px 10px 0px 0px; 
+}

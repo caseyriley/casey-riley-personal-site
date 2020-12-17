@@ -1,0 +1,26 @@
+@media screen and (max-height: 550px){
+  .parallax-wrapper1 {
+    height: 470px;
+  }
+  .parallax-wrapper1::before {
+    height: 630px;
+  }
+  .regular-wrapper1 {
+    height: 470px;
+  }.parallax-wrapper2 {
+    height: 470px;
+  }
+  .parallax-wrapper2::before {
+    height: 630px;
+  }
+  .regular-wrapper2 {
+    height: calc(100vh - 80px);
+    height: 470px;
+  }
+  #shimmer-image {
+    /* height: calc(100vh - 80px);
+    height: 470px; */
+    /* position: relative;
+    left: 0px; */
+  }
+}
