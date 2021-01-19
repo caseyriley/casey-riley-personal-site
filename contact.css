@@ -140,7 +140,7 @@
   /* position: fixed; */
   top: 120px;
   left: 160px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'M PLUS 1p', sans-serif;
   /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
   z-index: 3;
