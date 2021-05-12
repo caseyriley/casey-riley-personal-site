@@ -1,0 +1,25 @@
+@media screen and (max-width: 440px){
+    #contact-h1 {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        color: rgb(255, 255, 255);
+        font-family: 'M PLUS 1p', sans-serif;
+        /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+        z-index: 3;
+      }
+      #contact-h2 {
+        font-size: 6vw;
+        left: 10px;
+      }
+      #contact-h2-email {
+        font-size: 6vw;
+        left: 10px;
+      }
+      #iphone {
+        display: none;
+      }
+      #mail {
+        display: none;
+      }
+}
