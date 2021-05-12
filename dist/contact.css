@@ -9,10 +9,25 @@
 } */
 
 
-
+.contact-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #banner-c {
   height: 500px;
   width: 80vw;
+  max-width: 900px;
+  min-width: 500px;
   background-color: black;
   overflow: hidden;
   /* z-index: -1; */
@@ -126,29 +141,29 @@
     transform: scale(2) ;
     /* transform: scale(2) translateX(-20%); */
 }
-#contact-text {
+/* #contact-text {
   
   position: absolute;
-  top: 180px;
-  left: 18vw;
+  top: 340px;
+  left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-}
+} */
 #contact-h1 {
-  /* position: fixed; */
-  top: 120px;
-  left: 160px;
+  position: absolute;
+  top: 80px;
+  left: 30px;
   color: rgb(255, 255, 255);
   font-family: 'M PLUS 1p', sans-serif;
   /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
   z-index: 3;
 }
 #contact-h2 {
-  /* position: fixed; */
-  top: 180px;
-  left: 150px;
+  position: absolute;
+  bottom: 10px;
+  left: 65px;
   color: white;
   text-decoration: none;
   font-family: 'M PLUS 1p', sans-serif;
@@ -156,27 +171,28 @@
   z-index: 3;
 }
 #contact-h2-email {
-  /* position: fixed; */
-  top: 260px;
-  left: 150px;
+  position: absolute;
+  bottom: 10px;
+  right: 35px;
   color: white;
   font-family: 'M PLUS 1p', sans-serif;
   font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   z-index: 3;
 }
-.contact-info{
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 #iphone {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
   height: 30px;
   filter: invert();
   z-index: 5;
 }
 #mail {
+  position: absolute;
+  bottom: 30px;
+  right: 370px;
   height: 30px;
   filter: brightness(500%);
   z-index: 5;
-  margin: 0px 10px 0px 0px; 
+  /* margin: 0px 10px 0px 0px;  */
 }
