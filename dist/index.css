@@ -218,7 +218,7 @@ body {
 
   height: calc(100vh - 80px);
   width: 100vw;
-  perspective: 1px;
+  perspective: 1.15px;
   transform-style: preserve-3d;
   overflow-x:hidden;
   overflow-y:auto;
