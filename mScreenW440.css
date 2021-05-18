@@ -13,4 +13,10 @@
       #mail {
         display: none;
       }
+      .navbar-options  span{
+        font-size: 15px;
+      }
+      .navbar-c__link-c__resume {
+        font-size: 15px;
+      }
 }
