@@ -13,7 +13,7 @@ body {
   overflow: hidden;
 }
 /* -------Navbar----------------- */
-#navbar-c{
+#navbar-c {
   width: 100vw;
   height: 80px;
   background-color: whitesmoke;
@@ -23,9 +23,9 @@ body {
   justify-content: space-evenly;
   z-index: 3;
   border-bottom: 1px solid rgb(233, 233, 233);
-  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-  box-shadow: 0 3px 8px 1px rgba(0,0,0,.3);
-
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-options {
@@ -34,13 +34,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.navbar-options  span{
+.navbar-options span {
   font-size: 20px;
 }
-.navbar-options  span:hover{
+.navbar-options span:hover {
   color: rgb(243, 134, 247);
 }
-.navbar-c__link-c{
+.navbar-c__link-c {
   width: 100vw;
   height: 80px;
   display: flex;
@@ -48,146 +48,138 @@ body {
   align-items: center;
 }
 #tranform-box {
-    visibility: hidden;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-    position: fixed;
-    left: 11vw;
-    
+  visibility: hidden;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  left: 11vw;
 }
 .tranform-box__line {
-    width: 25px;
-    height: 2px;
-    position: absolute;
-    background-color: black;
-    transition: transform .4s;
-    transition: top .4s;
-    
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  transition: transform 0.4s;
+  transition: top 0.4s;
 }
 .tranform-box__line-1 {
-    top: 14px;
+  top: 14px;
 }
 
 .tranform-box__line-3 {
-    top: 34px;
+  top: 34px;
 }
 .transform-1 {
-    transform: rotate(-45deg);
-    top: 25px;
+  transform: rotate(-45deg);
+  top: 25px;
 }
 .transform-2 {
-    visibility: hidden;
+  visibility: hidden;
 }
 .transform-3 {
-    transform: rotate(45deg);
-    top: 25px;
+  transform: rotate(45deg);
+  top: 25px;
 }
 
 .dropdown-projects {
-    position: absolute;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-    top: 80px;
-    left: 10vw;
-    height: 200px;
-    width: 137px;
-    background-color: white;
-    box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
-    z-index: 2;
-    border-radius: 3px;
-    border: 1px solid rgb(160, 160, 160);
-    opacity: 1;
-    transition: opacity .5s, height .5s;
-    margin-top: 0px;
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  top: 80px;
+  left: 10vw;
+  height: 200px;
+  width: 137px;
+  background-color: white;
+  box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
+  z-index: 2;
+  border-radius: 3px;
+  border: 1px solid rgb(160, 160, 160);
+  opacity: 1;
+  transition: opacity 0.5s, height 0.5s;
+  margin-top: 0px;
 }
 .dropdown-networks {
-    position: absolute;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-    top: 80px;
-    left: 30vw;
-    height: 100px;
-    width: 90px;
-    background-color: white;
-    box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
-    z-index: 2;
-    border-radius: 3px;
-    border: 1px solid rgb(160, 160, 160);
-    opacity: 1;
-    transition: opacity .5s, height .5s;
-    margin-top: 0px;
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  top: 80px;
+  left: 30vw;
+  height: 100px;
+  width: 90px;
+  background-color: white;
+  box-shadow: 2px 1px 2px 2px rgba(147, 147, 147, 0.1);
+  z-index: 2;
+  border-radius: 3px;
+  border: 1px solid rgb(160, 160, 160);
+  opacity: 1;
+  transition: opacity 0.5s, height 0.5s;
+  margin-top: 0px;
 }
-.hidden{
+.hidden {
   height: 0px;
   /* transform: scale(0); */
   opacity: 0;
   pointer-events: none;
- 
 }
-#navbar-c__dropdown__white-space{
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+#navbar-c__dropdown__white-space {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .navbar-c__dropdown__nav-link {
-    margin: 0px 0px 8px 15px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    line-height: 20px;
-    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
-   
+  margin: 0px 0px 8px 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
 }
 
 .navbar-c__dropdown__nav-link:hover {
   color: rgb(243, 134, 247);
 }
 
-.navbar-c__link-c__shimmer{
+.navbar-c__link-c__shimmer {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
-.navbar-c__link-c__sherwood{
+.navbar-c__link-c__sherwood {
   text-decoration: none;
   color: black;
   font-size: 20px;
   margin-left: 20px;
-  
 }
-.navbar-c__link-c__linkedin{
+.navbar-c__link-c__linkedin {
   text-decoration: none;
   color: black;
   font-size: 20px;
   margin-left: 20px;
-  
 }
-.navbar-c__link-c__angellist{
+.navbar-c__link-c__angellist {
   text-decoration: none;
   color: black;
   font-size: 20px;
   margin-left: 20px;
-  
 }
-.navbar-c__link-c__resume{
+.navbar-c__link-c__resume {
   text-decoration: none;
   color: black;
   font-size: 20px;
   margin-left: 20px;
-  
 }
 
-.navbar-c__link-c__contact{
+.navbar-c__link-c__contact {
   text-decoration: none;
   font-size: 20px;
   color: black;
@@ -196,7 +188,7 @@ body {
   align-items: center;
   margin-left: 20px;
 }
-#navbar-c a:hover{
+#navbar-c a:hover {
   color: rgb(243, 134, 247);
 }
 /* ---------------------------- */
@@ -211,25 +203,23 @@ body {
   align-items: center;
   margin: 80px 0px 0px 0px;
   overflow: hidden;
-
 }
 
 .parallax-c {
-
   height: calc(100vh - 80px);
   width: 100vw;
   perspective: 1.15px;
   transform-style: preserve-3d;
-  overflow-x:hidden;
-  overflow-y:auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   margin: 0px;
-  padding:0px;
+  padding: 0px;
 }
 .parallax-wrapper {
   width: 100vw;
 
   height: calc(100vh - 80px);
-  padding-top:20vh;
+  padding-top: 20vh;
   box-sizing: border-box;
   transform-style: preserve-3d;
   display: flex;
@@ -237,17 +227,17 @@ body {
   align-items: center;
 }
 .parallax-wrapper::before {
-  content:"";
+  content: "";
   width: 100vw;
   height: calc(100vh - 80px);
   /* min-height: calc(100vh); */
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
   background-size: cover;
   position: absolute;
   z-index: -1;
-  transform:translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
 }
 
 /* ---------wrapper1------------- */
@@ -262,19 +252,18 @@ body {
   margin: 0px 0px 0px 0px;
 }
 .parallax-wrapper1::before {
-  content:"";
+  content: "";
   width: 100vw;
   height: calc(100vh + 80px);
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
   background-size: cover;
   position: absolute;
   z-index: -1;
-  transform:translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
   filter: brightness(30%);
 }
-
 
 #casey-top__text {
   display: flex;
@@ -288,7 +277,7 @@ body {
   font-size: 35px;
   color: white;
   margin: 0px 0px 0px 0px;
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: "M PLUS 1p", sans-serif;
 }
 
 #casey-top__text P {
@@ -297,7 +286,9 @@ body {
   font-size: 1.5vw;
   font-size: 16px;
   color: white;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 10px 0px 0px 0px;
 }
 #casey-top__text P a {
@@ -305,7 +296,7 @@ body {
   color: white;
 }
 #caseyPro1 {
-  width: 30vw; 
+  width: 30vw;
   width: 350px;
   height: auto;
   margin: 0px 0px 0px 0px;
@@ -363,7 +354,7 @@ body {
   align-items: center;
 }
 .black-space {
-  width:20%;
+  width: 20%;
   height: 100%;
   background-color: black;
 }
@@ -408,7 +399,6 @@ body {
   margin: 0px 0px 0px 30px;
 }
 
-
 .skywalker-top__text {
   display: flex;
   flex-direction: column;
@@ -422,31 +412,31 @@ body {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: "M PLUS 1p", sans-serif;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 #skywalker__h2:hover {
   color: rgb(243, 134, 247);
   font-size: 50px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
-
 }
 .skywalker-top__text P {
   width: 45vw;
   width: 490px;
- 
+
   font-size: 1.5vw;
   font-size: 16px;
   color: rgb(255, 255, 255);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 10px 0px 0px 0px;
-
 }
 /* -------Paralax-Wrapper-2------------------------ */
 .parallax-wrapper2 {
   width: 100vw;
-  height:calc(100vh - 80px);
+  height: calc(100vh - 80px);
   /* padding-top:20vh; */
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -455,11 +445,11 @@ body {
   align-items: center;
 }
 .parallax-wrapper2::before {
-  content:"";
+  content: "";
   width: 100vw;
   height: calc(100vh - 80px);
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   /* background-image: url("https://wellsbaum.blog/eventually-everything-connects-people-ideas-objects/"); */
   background-image: url("./images/dog-business-office-computer.jpg");
   background-size: cover;
@@ -481,9 +471,9 @@ body {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0;
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: "M PLUS 1p", sans-serif;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 #chatter__h1:hover {
   color: rgb(243, 134, 247);
@@ -495,10 +485,11 @@ body {
   width: 390px;
   font-size: 17px;
   color: rgb(255, 255, 255);
-  font-family: 'M PLUS 1p', sans-serif;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "M PLUS 1p", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 10px 0px 0px 30px;
-
 }
 .parallax-wrapper2 img {
   height: 30vw;
@@ -511,7 +502,7 @@ body {
   width: 100vw;
   height: calc(100vh - 80px);
   /* padding-top:20vh; */
-  background-image: url("./images/Shimmer-gallery.png");;
+  background-image: url("./images/Shimmer-gallery.png");
   background-size: cover;
   background-position: top;
   /* background-color: lightgrey; */
@@ -534,7 +525,6 @@ body {
 
   background-position: top;
   overflow: hidden;
-
 }
 .shimmer__text {
   position: absolute;
@@ -547,7 +537,7 @@ body {
   height: 100%;
   width: 35vw;
   width: 385px;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #shimmer__text__h2 {
@@ -555,27 +545,25 @@ body {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   margin: 0% 10px 0px 10px;
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: "M PLUS 1p", sans-serif;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
   position: relative;
- 
-
-  
 }
 #shimmer__text__h2:hover {
   color: rgb(243, 134, 247);
   font-size: 35px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
-
 }
 .shimmer__text P {
   width: 80%;
   width: 250px;
   font-size: 17px;
   color: white;
-  font-family: 'M PLUS 1p', sans-serif;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "M PLUS 1p", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 10px 10px 0px 10px;
   /* margin: 5px 0px 0px 0px; */
 }
@@ -593,17 +581,7 @@ body {
 }
 /* ---------------------------------------------- */
 
-
 /* ------------------------------ */
-
-
-
-
-
-
-
-
-
 
 /* ---------------------------------------- */
 /* --------------IntersectionObserver------------------- */
@@ -625,11 +603,9 @@ body {
   opacity: 1;
 }
 
-
-
 .fade-in {
   opacity: 0;
-  transition: opacity .5s ease-in;
+  transition: opacity 0.5s ease-in;
 }
 .fade-in.appear {
   opacity: 1;
