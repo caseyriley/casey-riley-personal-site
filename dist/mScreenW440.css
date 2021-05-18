@@ -1,22 +1,22 @@
-@media screen and (max-width: 440px){
-      #contact-h2 {
-        font-size: 6vw;
-        left: 10px;
-      }
-      #contact-h2-email {
-        font-size: 6vw;
-        left: 10px;
-      }
-      #iphone {
-        display: none;
-      }
-      #mail {
-        display: none;
-      }
-      .navbar-options  span{
-        font-size: 15px;
-      }
-      .navbar-c__link-c__resume {
-        font-size: 15px;
-      }
+@media screen and (max-width: 440px) {
+  #contact-h2 {
+    font-size: 6vw;
+    left: 10px;
+  }
+  #contact-h2-email {
+    font-size: 6vw;
+    left: 10px;
+  }
+  #iphone {
+    display: none;
+  }
+  #mail {
+    display: none;
+  }
+  .navbar-options span {
+    font-size: 15px;
+  }
+  .navbar-c__link-c__resume {
+    font-size: 15px;
+  }
 }
