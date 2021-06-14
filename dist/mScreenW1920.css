@@ -1,11 +1,44 @@
 @media screen and (max-width: 1920px) {
-  #casey-top__h1 {
-    font-size: 3vw;
+
+  .caseyPro1 {
+    width: 600px;
+  }
+  .casey-top__h1 {
+    font-size: 45px;
   }
   #casey-top__text P {
-    width: 45vw;
     font-size: 25px;
-    margin: 10px 0px 0px 0px;
+    width: 45vw;
   }
 
+  .app-link-h2 {
+    font-size: 45px;
+  }
+  .app-link-h2:hover {
+    font-size: 50px;
+  }
+  .skywalker-top__text P {
+    width: 600px;
+    font-size: 25px;
+  }
+  .mix-meld-image {
+    height: 550px;
+  }
+  .regular-wrapper1 img {
+    height: 500px;
+  }
+  .chatter__text p {
+    width: 600px;
+    font-size: 25px;
+  }
+  .chatter-img {
+    height: 500px;
+  }
+  .shimmer-h2-c {
+    width: 300px;
+  }
+  .shimmer__text P {
+    width: 300px;
+    font-size: 25px;
+  }
   }  
