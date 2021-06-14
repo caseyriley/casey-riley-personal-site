@@ -270,8 +270,10 @@ body {
   align-items: center;
   margin: 0px 0px 0px 0px;
 }
-
-#casey-top__h1 {
+.casey-top__h1-c {
+  width: 100%;
+}
+.casey-top__h1 {
   font-size: 35px;
   color: white;
   margin: 0px 0px 0px 0px;
@@ -300,7 +302,12 @@ body {
   margin: 0px 0px 0px 0px;
   border-radius: 100%;
 }
-
+#ecomadic-link {
+  transition: all .3s;
+}
+#ecomadic-link:hover {
+  color: rgb(243, 134, 247);
+}
 /* -----Regular-Wrapper-1---------------- */
 /* .regular-wrapper {
   width: 100vw;
@@ -402,20 +409,33 @@ body {
   justify-content: flex-start;
   align-items: center;
 }
-#skywalker__h2 {
-  /* font-size: 40px; */
+.text-dec-none {
+  text-decoration: none;
+}
+.app-link-h2-c {
+  width: 100%;
+  display: flex;;
+}
+.app-link-h2-center-c {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0px 0px 0px 40px;
+}
+.app-link-h2 {
   font-size: 3vw;
   font-size: 35px;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  margin: 0;
   font-family: "M PLUS 1p", sans-serif;
   cursor: pointer;
   transition: all 0.3s;
+  margin: 0px;
+  
 }
-#skywalker__h2:hover {
+.app-link-h2:hover {
   color: rgb(243, 134, 247);
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 .skywalker-top__text P {
@@ -484,7 +504,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin: 10px 0px 0px 30px;
+  margin: 10px 0px 0px 0px;
 }
 .parallax-wrapper2 img {
   height: 30vw;
@@ -521,6 +541,11 @@ body {
   background-position: top;
   overflow: hidden;
 }
+.shimmer-h2-c {
+  display: flex;
+  justify-content: flex-start;
+  width: 250px;
+}
 .shimmer__text {
   position: absolute;
   left: 0px;
@@ -529,6 +554,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0px 0px 0px 0px;
+  padding-left: 10px;
   height: 100%;
   width: 35vw;
   width: 385px;
@@ -559,7 +585,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 0px 0px;
   /* margin: 5px 0px 0px 0px; */
 }
 .bold {

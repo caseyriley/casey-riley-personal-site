@@ -1,0 +1,11 @@
+@media screen and (max-width: 1920px) {
+  #casey-top__h1 {
+    font-size: 3vw;
+  }
+  #casey-top__text P {
+    width: 45vw;
+    font-size: 25px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  }  
