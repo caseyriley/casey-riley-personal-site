@@ -229,7 +229,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* max-height: 1080px; */
   /* min-height: calc(100vh); */
   top: 0;
   left: 0;
@@ -256,7 +256,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh + 80px);
-  max-height: 1080px;
+  /* max-height: 1080px; */
   top: 0;
   left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
