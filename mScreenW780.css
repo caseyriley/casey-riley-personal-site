@@ -1,36 +1,8 @@
 @media screen and (max-width: 780px ){
-
-  #casey-top__text P {
-    font-size: 13px;
-    margin: 5px 0px 0px 0px;
+  .hide-text {
+    display: none;
   }
-
-  #casey-top__text {
-    position: relative;
-    top: 15px;
-    
+  .caseyPro1 {
+    width: 280px;
   }
-
-  .skywalker-top__text P {
-    font-size: 13px;
-  
-  }
-
-  .chatter__text p {
-    font-size: 13px;
-  }
-
-  .shimmer__text {
-    width: 250px;
-  }
-
-  .shimmer__text P {
-    font-size: 16px;
-  }
-  /* .regular-wrapper2 img {
-    width: 100vw;
-    
-  } */
-
-
 }

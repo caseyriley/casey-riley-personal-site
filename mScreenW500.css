@@ -14,4 +14,26 @@
         position: relative;
       
       }
+
+      .casey-top__h1 {
+        font-size: 25px;
+      }
+      #casey-top__text P {
+        font-size: 15px;
+      }
+      .app-link-h2 {
+        font-size: 25px;
+      }
+      .app-link-h2:hover {
+        font-size: 30px;
+      }
+      .skywalker-top__text P {
+        font-size: 15px;
+      }
+      .chatter__text p {
+        font-size: 15px;
+      }
+      .shimmer__text P {
+        font-size: 15px;
+      }
 }
