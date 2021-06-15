@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  .casey-top__h1 {
+    font-size: 25px;
+  }
+  #casey-top__text P {
+    font-size: 17px;
+  }
+  .app-link-h2 {
+    font-size: 25px;
+  }
+  .app-link-h2:hover {
+    font-size: 30px;
+  }
+  .skywalker-top__text P {
+    font-size: 17px;
+  }
+  .chatter__text p {
+    font-size: 17px;
+  }
+  .shimmer__text P {
+    font-size: 17px;
+  }
+
+
+  .mix-meld-image {
+    margin: 0px;
+    height: 380px;
+  }
+  .regular-wrapper1 img {
+    height: 350px;
+  }
+  .chatter-img {
+    height: 300px;
+  }
+}
