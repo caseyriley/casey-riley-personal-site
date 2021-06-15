@@ -217,6 +217,7 @@ body {
   width: 100vw;
 
   height: calc(100vh - 80px);
+  max-height: 1080px;
   padding-top: 20vh;
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -228,6 +229,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   /* min-height: calc(100vh); */
   top: 0;
   left: 0;
@@ -242,6 +244,7 @@ body {
 .parallax-wrapper1 {
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   box-sizing: border-box;
   transform-style: preserve-3d;
   display: flex;
@@ -253,6 +256,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh + 80px);
+  max-height: 1080px;
   top: 0;
   left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -379,6 +383,7 @@ body {
 .regular-wrapper1 {
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   background-image: url("./images/saturn-light.jpg");
   background-size: cover;
   z-index: 2;
@@ -453,6 +458,7 @@ body {
 .parallax-wrapper2 {
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   box-sizing: border-box;
   transform-style: preserve-3d;
   display: flex;
@@ -463,6 +469,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   top: 0;
   left: 0;
   background-image: url("./images/dog-business-office-computer.jpg");
@@ -515,6 +522,7 @@ body {
 .regular-wrapper2 {
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   /* padding-top:20vh; */
   background-image: url("./images/Shimmer-gallery.png");
   background-size: cover;
@@ -536,7 +544,7 @@ body {
   background-image: url("./images/Shimmer-gallery.png");
 
   height: calc(100vh - 80px);
-
+  max-height: 1080px;
   background-position: top;
   overflow: hidden;
 }
