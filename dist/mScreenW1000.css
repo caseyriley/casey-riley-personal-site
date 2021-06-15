@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px){
+  .parallax-wrapper1{
+    flex-direction: column-reverse;
+  }
+  .caseyPro1 {
+    width: 300px;
+  }
+  .casey-top__h1 {
+    margin-left: 20px;
+  }
+  #casey-top__text P {
+    width: calc(100% - 40px);
+    margin: 0px 20px 10px 20px;
+  }
+  /* /////mix meld/////// */
+  .mix-meld-main {
+    flex-direction: column-reverse;
+  }
+  .skywalker-top__text P {
+    width: calc(100% - 40px);
+    margin: 0px 20px 10px 20px;
+  }
+  .app-link-h2 {
+    margin-left: 20px;
+  }
+/* ///////skywalker/////// */
+  .regular-wrapper1__inner-c {
+    flex-direction: column;
+  }
+  /* ////////////chatter/////////// */
+  .chatter-c {
+    flex-direction: column-reverse;
+  }
+  .chatter__text p {
+    width: calc(100% - 40px);
+    margin: 0px 20px 10px 20px;
+  }
+}

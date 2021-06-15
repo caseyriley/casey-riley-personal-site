@@ -1,38 +1,13 @@
-@media screen and (max-width: 1300px) {
-  .caseyPro1 {
-    width: 500px;
-  }
-  .casey-top__h1 {
-    font-size: 40px;
-  }
+@media screen and (max-width: 1200px) {
   #casey-top__text P {
-    font-size: 20px;
+    width: 41vw;
   }
 
-  .app-link-h2 {
-    font-size: 40px;
-  }
-  .app-link-h2:hover {
-    font-size: 45px;
-  }
   .skywalker-top__text P {
-    width: 500px;
-    font-size: 20px;
+    width: 400px;
   }
-  .mix-meld-image {
-    height: 450px;
-  }
-  .regular-wrapper1 img {
-    height: 400px;
-  }
+
   .chatter__text p {
-    width: 500px;
-    font-size: 20px;
+    width: 400px;
   }
-  .chatter-img {
-    height: 350px;
-  }
-  .shimmer__text P {
-    font-size: 20px;
-  }
-  } 
+}

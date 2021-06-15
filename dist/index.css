@@ -267,12 +267,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  margin: 0px 0px 0px 0px;
+  /* align-items: center; */
+  margin: 0px 0px 0px 20px;
 }
-.casey-top__h1-c {
+/* .casey-top__h1-c {
   width: 100%;
-}
+} */
 .casey-top__h1 {
   font-size: 35px;
   color: white;
