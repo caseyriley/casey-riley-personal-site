@@ -229,6 +229,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1280px;
   top: 0;
   left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -254,6 +255,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh + 80px);
+  max-height: 1780px;
   top: 0;
   left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -340,6 +342,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  z-index: 1;
 }
 .mix-meld-top-background {
   width: 100%;
@@ -469,7 +472,7 @@ body {
   content: "";
   width: 100vw;
   height: calc(100vh - 80px);
-  /* max-height: 1080px; */
+  max-height: 1280px;
   top: 0;
   left: 0;
   background-image: url("./images/dog-business-office-computer.jpg");
