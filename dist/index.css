@@ -321,6 +321,7 @@ body {
 .regular-wrapper3 {
   width: 100vw;
   height: calc(100vh - 80px);
+  max-height: 1080px;
   background-image: url("./images/polygon-background.jpg");
   background-size: cover;
   z-index: 2;
@@ -342,10 +343,12 @@ body {
 }
 .mix-meld-top-background {
   width: 100%;
-  height: 1000px;
+  height: 1700px;
   background-repeat: repeat;
   background-image: url("./images/color-wash-3.jpg");
+  background-position: top;
   position: absolute;
+  top: -50px;
 
   transform: translateZ(-1px) scale(2);
   z-index: -1;
@@ -510,8 +513,7 @@ body {
   margin: 10px 0px 0px 0px;
 }
 .chatter-img {
-  height: 30vw;
-  height: 330px;
+  height: 350px;
   margin: 0px 0px 0px 0px;
   border-radius: 10px;
 }
