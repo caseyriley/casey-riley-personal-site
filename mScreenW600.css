@@ -24,12 +24,15 @@
 
   .mix-meld-image {
     margin: 0px;
-    height: 380px;
+    width: 500px;
+    height: auto;
   }
   .regular-wrapper1 img {
-    height: 350px;
+    height: auto;
+    width: 500px;
   }
   .chatter-img {
-    height: 300px;
+    height: auto;
+    width: 500px;
   }
 }

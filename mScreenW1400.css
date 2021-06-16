@@ -3,13 +3,16 @@
     width: 500px;
   }
   .mix-meld-image {
-    height: 450px;
+    width: 610px;
+    height: auto;
   }
   .regular-wrapper1 img {
-    height: 400px;
+    width: 610px;
+    height: auto;
   }
   .chatter-img {
-    height: 400px;
+    width: 650px;
+    height: auto;
   }
 
   }  

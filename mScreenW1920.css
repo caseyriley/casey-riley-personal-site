@@ -22,17 +22,20 @@
     font-size: 25px;
   }
   .mix-meld-image {
-    height: 550px;
+    width: 710px;
+    height: auto;
   }
   .regular-wrapper1 img {
-    height: 500px;
+    width: 710px;
+    height: auto;
   }
   .chatter__text p {
     width: 600px;
     font-size: 25px;
   }
   .chatter-img {
-    height: 500px;
+    width: 750px;
+    height: auto;
   }
   .shimmer-h2-c {
     width: 300px;

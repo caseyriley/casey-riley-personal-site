@@ -23,9 +23,15 @@
   .app-link-h2 {
     margin-left: 20px;
   }
+  .mix-meld-image {
+    margin-left: 0px;
+  }
 /* ///////skywalker/////// */
   .regular-wrapper1__inner-c {
     flex-direction: column;
+  }
+  .regular-wrapper1 img {
+    margin-left: 0px;
   }
   /* ////////////chatter/////////// */
   .chatter-c {

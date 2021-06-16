@@ -11,4 +11,8 @@
       #mail {
         left: 30px;
       }
+      .chatter-img {
+        width: 550px;
+        height: auto;
+      }
 }
