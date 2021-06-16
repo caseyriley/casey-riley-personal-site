@@ -22,13 +22,14 @@
     font-size: 19px;
   }
   .mix-meld-image {
-    height: 400px;
+    height: auto;
+    width: 560px
   }
   .regular-wrapper1__inner-c {
     align-items: center;
   }
   .regular-wrapper1 img {
-    height: 380px;
+    height: auto;
     margin-left: 0px;
   }
 
@@ -36,7 +37,7 @@
     font-size: 19px;
   }
   .chatter-img {
-    height: 350px;
+    height: auto;
   }
   .shimmer__text P {
     font-size: 19px;
