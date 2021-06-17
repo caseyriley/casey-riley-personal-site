@@ -216,8 +216,10 @@ body {
 .parallax-wrapper {
   width: 100vw;
 
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px); */
+  /* max-height: 1080px; */
+  min-height: 1000px;
+  max-height: 1000px;
   padding-top: 20vh;
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -228,8 +230,9 @@ body {
 .parallax-wrapper::before {
   content: "";
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1280px;
+  /* height: calc(100vh - 80px);
+  max-height: 1280px; */
+  height: 1200px;
   top: 0;
   left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -242,8 +245,9 @@ body {
 /* ---------wrapper1------------- */
 .parallax-wrapper1 {
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px); */
+  /* min-height: 1000px; */
+  height: 1000px;
   box-sizing: border-box;
   transform-style: preserve-3d;
   display: flex;
@@ -254,8 +258,8 @@ body {
 .parallax-wrapper1::before {
   content: "";
   width: 100vw;
-  height: calc(100vh + 80px);
-  max-height: 1780px;
+  /* height: calc(100vh + 80px); */
+  height: 1200px;
   top: 0;
   left: 0;
   background-image: url("./images/fernGreenForestLush.jpg");
@@ -322,8 +326,10 @@ body {
 } */
 .regular-wrapper3 {
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px);
+  max-height: 1080px; */
+  /* min-height: 1000px; */
+  height: 1000px;
   background-image: url("./images/polygon-background.jpg");
   background-size: cover;
   z-index: 2;
@@ -385,8 +391,11 @@ body {
 }
 .regular-wrapper1 {
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px);
+  max-height: 1080px; */
+  /* min-height: 1000px;
+  max-height: 1000px; */
+  height: 1000px;
   background-image: url("./images/saturn-light.jpg");
   background-size: cover;
   z-index: 2;
@@ -460,8 +469,11 @@ body {
 /* -------Paralax-Wrapper-2------------------------ */
 .parallax-wrapper2 {
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px);
+  max-height: 1080px; */
+  /* min-height: 1000px;
+  max-height: 1000px; */
+  height: 1000px;
   box-sizing: border-box;
   transform-style: preserve-3d;
   display: flex;
@@ -471,8 +483,9 @@ body {
 .parallax-wrapper2::before {
   content: "";
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1280px;
+  /* height: calc(100vh - 80px);
+  max-height: 1280px; */
+  height: 1200px;
   top: 0;
   left: 0;
   background-image: url("./images/dog-business-office-computer.jpg");
@@ -523,8 +536,11 @@ body {
 /* ------------Regular-Wrapper-2----------------- */
 .regular-wrapper2 {
   width: 100vw;
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px);
+  max-height: 1080px; */
+  /* min-height: 1000px;
+  max-height: 1000px; */
+  height: 1000px;
   /* padding-top:20vh; */
   background-image: url("./images/Shimmer-gallery.png");
   background-size: cover;
@@ -545,8 +561,11 @@ body {
 #shimmer-image {
   background-image: url("./images/Shimmer-gallery.png");
 
-  height: calc(100vh - 80px);
-  max-height: 1080px;
+  /* height: calc(100vh - 80px);
+  max-height: 1080px; */
+  /* min-height: 1000px;
+  max-height: 1000px; */
+  height: 1000px;
   background-position: top;
   overflow: hidden;
 }

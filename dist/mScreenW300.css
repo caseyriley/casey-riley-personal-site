@@ -1,0 +1,18 @@
+@media screen and (max-width: 300px) {
+  .caseyPro1 {
+    width: 100px;
+  }
+  .mix-meld-image {
+    margin: 0px;
+    width: 280px;
+    height: auto;
+  }
+  .regular-wrapper1 img {
+    height: auto;
+    width: 280px;
+  }
+  .chatter-img {
+    height: auto;
+    width: 280px;
+  }
+}
