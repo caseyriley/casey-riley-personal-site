@@ -1,4 +1,8 @@
 @media screen and (max-width: 4500px) {
+  .navbar-options span, 
+  .navbar-c__link-c__resume {
+    font-size: 30px;
+  }
   .caseyPro1 {
     width: 31vw;
     max-width: 955px;

@@ -33,7 +33,27 @@
       .chatter__text p {
         font-size: 15px;
       }
+      .shimmer-h2-c h2{
+        margin-left: 45px;
+      }
+      .shimmer__text {
+        width: 300px;
+      }
       .shimmer__text P {
         font-size: 15px;
+        width: 200px;
+      }
+      .mix-meld-image {
+        margin: 0px;
+        width: 400px;
+        height: auto;
+      }
+      .regular-wrapper1 img {
+        height: auto;
+        width: 400px;
+      }
+      .chatter-img {
+        height: auto;
+        width: 400px;
       }
 }

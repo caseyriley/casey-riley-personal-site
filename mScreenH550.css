@@ -17,14 +17,7 @@
     height: 630px;
   }
   .regular-wrapper2 {
-    height: calc(100vh - 80px);
+    /* height: calc(100vh - 80px); */
     height: 470px;
   }
-
-  /* #shimmer-image { */
-    /* height: calc(100vh - 80px);
-    height: 470px; */
-    /* position: relative;
-    left: 0px; */
-  /* } */
 }
