@@ -11,6 +11,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   overflow: hidden;
+  background-color: black;
 }
 /* -------Navbar----------------- */
 #navbar-c {
@@ -124,7 +125,6 @@ body {
 }
 .hidden {
   height: 0px;
-  /* transform: scale(0); */
   opacity: 0;
   pointer-events: none;
 }
@@ -215,9 +215,6 @@ body {
 }
 .parallax-wrapper {
   width: 100vw;
-
-  /* height: calc(100vh - 80px); */
-  /* max-height: 1080px; */
   height: 1000px;
   padding-top: 20vh;
   box-sizing: border-box;
@@ -231,8 +228,6 @@ body {
 .parallax-wrapper::before {
   content: "";
   width: 100vw;
-  /* height: calc(100vh - 80px);
-  max-height: 1280px; */
   height: 1200px;
   top: 0;
   left: 0;
@@ -246,8 +241,6 @@ body {
 /* ---------wrapper1------------- */
 .parallax-wrapper1 {
   width: 100vw;
-  /* height: calc(100vh - 80px); */
-  /* min-height: 1000px; */
   height: 1000px;
   box-sizing: border-box;
   transform-style: preserve-3d;
@@ -261,7 +254,6 @@ body {
 .parallax-wrapper1::before {
   content: "";
   width: 100vw;
-  /* height: calc(100vh + 80px); */
   height: 1700px;
   top: 0;
   left: 0;
@@ -277,12 +269,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* align-items: center; */
   margin: 0px 0px 0px 20px;
 }
-/* .casey-top__h1-c {
-  width: 100%;
-} */
 .casey-top__h1 {
   font-size: 35px;
   color: white;
@@ -312,7 +300,7 @@ body {
   border-radius: 100%;
 }
 #ecomadic-link {
-  transition: all .3s;
+  transition: all 0.3s;
 }
 #ecomadic-link:hover {
   color: rgb(243, 134, 247);
@@ -329,9 +317,6 @@ body {
 } */
 .regular-wrapper3 {
   width: 100vw;
-  /* height: calc(100vh - 80px);
-  max-height: 1080px; */
-  /* min-height: 1000px; */
   height: 1000px;
   background-image: url("./images/polygon-background.jpg");
   background-size: cover;
@@ -394,10 +379,6 @@ body {
 }
 .regular-wrapper1 {
   width: 100vw;
-  /* height: calc(100vh - 80px);
-  max-height: 1080px; */
-  /* min-height: 1000px;
-  max-height: 1000px; */
   height: 1000px;
   background-image: url("./images/saturn-light.jpg");
   background-size: cover;
@@ -433,12 +414,11 @@ body {
 }
 .app-link-h2-c {
   width: 100%;
-  display: flex;;
+  display: flex;
 }
 .app-link-h2-center-c {
   width: 100%;
   display: flex;
-  /* justify-content: center; */
   margin: 0px 0px 0px 40px;
 }
 .app-link-h2 {
@@ -450,7 +430,6 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   margin: 0px;
-  
 }
 .app-link-h2:hover {
   color: rgb(243, 134, 247);
@@ -535,16 +514,10 @@ body {
 /* ------------Regular-Wrapper-2----------------- */
 .regular-wrapper2 {
   width: 100vw;
-  /* height: calc(100vh - 80px);
-  max-height: 1080px; */
-  /* min-height: 1000px;
-  max-height: 1000px; */
   height: 1000px;
-  /* padding-top:20vh; */
   background-image: url("./images/Shimmer-gallery.png");
   background-size: cover;
   background-position: top;
-  /* background-color: lightgrey; */
   z-index: 2;
   position: relative;
   display: flex;
@@ -552,18 +525,8 @@ body {
   align-items: center;
   overflow: hidden;
 }
-/* .regular-wrapper2 img {
-  width: 100vw;
-  
-  
-} */
 #shimmer-image {
   background-image: url("./images/Shimmer-gallery.png");
-
-  /* height: calc(100vh - 80px);
-  max-height: 1080px; */
-  /* min-height: 1000px;
-  max-height: 1000px; */
   height: 1000px;
   background-position: top;
   overflow: hidden;
@@ -613,7 +576,6 @@ body {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 10px 10px 0px 0px;
-  /* margin: 5px 0px 0px 0px; */
 }
 .bold {
   font-weight: 700;
