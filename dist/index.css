@@ -11,6 +11,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   overflow: hidden;
+  background-color: black;
 }
 /* -------Navbar----------------- */
 #navbar-c {
