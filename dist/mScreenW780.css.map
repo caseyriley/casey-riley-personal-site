@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,UAAU,CAAC;IACT,OAAO,EAAE,IAAI;GACd;EACD,AAAA,UAAU,CAAC;IACT,KAAK,EAAE,KAAK;GACb",
+    "sources": [
+        "mScreenW780.scss"
+    ],
+    "names": [],
+    "file": "mScreenW780.css"
+}

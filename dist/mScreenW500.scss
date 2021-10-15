@@ -1,0 +1,59 @@
+@media screen and (max-width: 500px) {
+  #banner-c {
+      height: 100vw;
+      width: 100vw;
+      max-width: 100vw;
+      min-width: 100vw;
+      background-color: black;
+      overflow: hidden;
+      /* z-index: -1; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+      position: relative;
+    
+    }
+
+    .casey-top__h1 {
+      font-size: 25px;
+    }
+    #casey-top__text P {
+      font-size: 15px;
+    }
+    .app-link-h2 {
+      font-size: 25px;
+    }
+    .app-link-h2:hover {
+      font-size: 30px;
+    }
+    .skywalker-top__text P {
+      font-size: 15px;
+    }
+    .chatter__text p {
+      font-size: 15px;
+    }
+    .shimmer-h2-c h2{
+      margin-left: 45px;
+    }
+    .shimmer__text {
+      width: 300px;
+    }
+    .shimmer__text P {
+      font-size: 15px;
+      width: 200px;
+    }
+    .mix-meld-image {
+      margin: 0px;
+      width: 400px;
+      height: auto;
+    }
+    .regular-wrapper1 img {
+      height: auto;
+      width: 400px;
+    }
+    .chatter-img {
+      height: auto;
+      width: 400px;
+    }
+}
