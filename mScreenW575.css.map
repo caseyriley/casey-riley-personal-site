@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,eAAe,CAAA;IACX,OAAO,EAAE,IAAI;GAChB",
+    "sources": [
+        "mScreenW575.scss"
+    ],
+    "names": [],
+    "file": "mScreenW575.css"
+}

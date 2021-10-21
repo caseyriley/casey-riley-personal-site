@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAClC,AAAA,gBAAgB,CAAC,CAAC,CAAC;IACjB,KAAK,EAAE,IAAI;GACZ;EAED,AAAA,oBAAoB,CAAC,CAAC,CAAC;IACrB,KAAK,EAAE,KAAK;GACb;EAED,AAAA,cAAc,CAAC,CAAC,CAAC;IACf,KAAK,EAAE,KAAK;GACb",
+    "sources": [
+        "mScreenW1200.scss"
+    ],
+    "names": [],
+    "file": "mScreenW1200.css"
+}

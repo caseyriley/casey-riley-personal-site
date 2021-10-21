@@ -1,17 +1,16 @@
-@media screen and (max-height: 550px){
+@media screen and (max-height: 550px) {
   .parallax-wrapper1 {
     height: 470px;
   }
   .parallax-wrapper1::before {
     height: 630px;
   }
-
   .regular-wrapper1 {
     height: 470px;
-  }.parallax-wrapper2 {
+  }
+  .parallax-wrapper2 {
     height: 470px;
   }
-
   .parallax-wrapper2::before {
     top: 80px;
     height: 630px;
@@ -21,3 +20,4 @@
     height: 470px;
   }
 }
+/*# sourceMappingURL=mScreenH550.css.map */
